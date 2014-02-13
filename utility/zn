@@ -18,10 +18,21 @@ USAGE="USAGE: $0 [ -h|--help ] [ a|add ] [ t|tasks ] [ @ ] \"text\"
 
 NS=`date +%Y:%m`
 BN=`date +%d`
+
+#URI style decoding, needed as sometimes (not always?) zim stores notebook paths uri-encoded
+function urldecode(){
+  python -c "import sys, urllib as ul; print ul.unquote_plus('$1')" ;
+}
+
 #Get default notebook path from config file
-NOTEBOOK=`grep -A1 "Default" ~/.config/zim/notebooks.list | tail -n 1 | sed -e "s|~|$HOME|" -e "s|file://||g"`
+NOTEBOOK=$(urldecode $(grep -A1 "Default" ~/.config/zim/notebooks.list | tail -n 1 | sed -e "s|~|$HOME|" -e "s|file://||g"))
+
 #Ignore pages metadata
 IGNOREPATTERN="Content-Type:|Wiki-Format:|Creation-Date:"
+
+
+
+urldecode "$@"
 
 #List all notes, sorted
 function _ListNotes() {
