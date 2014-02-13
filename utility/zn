@@ -31,9 +31,6 @@ NOTEBOOK=$(urldecode $(grep -A1 "Default" ~/.config/zim/notebooks.list | tail -n
 IGNOREPATTERN="Content-Type:|Wiki-Format:|Creation-Date:"
 
 
-
-urldecode "$@"
-
 #List all notes, sorted
 function _ListNotes() {
 find "$NOTEBOOK" -name "*.txt" | sort| xargs cat | egrep -v "$IGNOREPATTERN" | less
