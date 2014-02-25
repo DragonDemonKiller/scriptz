@@ -73,3 +73,6 @@
 [submodule "media/realtimeconfigquickscan"]
 	path = media/realtimeconfigquickscan
 	url = https://github.com/raboof/realtimeconfigquickscan
+[submodule "sysadmin/Linux_Exploit_Suggester"]
+	path = sysadmin/Linux_Exploit_Suggester
+	url = https://github.com/PenturaLabs/Linux_Exploit_Suggester
