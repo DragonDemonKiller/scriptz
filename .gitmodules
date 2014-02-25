@@ -67,3 +67,6 @@
 [submodule "sysadmin/TCP-32764"]
 	path = sysadmin/TCP-32764
 	url = https://github.com/elvanderb/TCP-32764
+[submodule "dev/git/gitcheck"]
+	path = dev/git/gitcheck
+	url = https://github.com/badele/gitcheck
