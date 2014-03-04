@@ -76,3 +76,6 @@
 [submodule "sysadmin/Linux_Exploit_Suggester"]
 	path = sysadmin/Linux_Exploit_Suggester
 	url = https://github.com/PenturaLabs/Linux_Exploit_Suggester
+[submodule "sysadmin/raspbian-ua-netinst"]
+	path = sysadmin/raspbian-ua-netinst
+	url = https://github.com/hifi/raspbian-ua-netinst
