@@ -76,7 +76,7 @@ if [ "$MODE" = "url" ]
 then
 	for RESURL in $ARGS
         do
-        	RESOURCETITLE=`wget "$RESURL" -q -O - | awk -vRS="</title>" '/<title>/{gsub(/.*<title>|\n+/,"");print;exit}'`
+        	RESOURCETITLE=`wget --no-check-certificate "$RESURL" -q -O - | awk -vRS="</title>" '/<title>/{gsub(/.*<title>|\n+/,"");print;exit}'`
         	
         	if [ "$MARKDOWN" = "1" ]
 	        then #Markdown syntax
