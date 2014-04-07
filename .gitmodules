@@ -82,3 +82,6 @@
 [submodule "fun/schemer"]
 	path = fun/schemer
 	url = https://github.com/thefryscorer/schemer
+[submodule "utility/FileTeaSend"]
+	path = utility/FileTeaSend
+	url = https://github.com/brechin/FileTeaSend
