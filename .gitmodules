@@ -79,3 +79,6 @@
 [submodule "sysadmin/raspbian-ua-netinst"]
 	path = sysadmin/raspbian-ua-netinst
 	url = https://github.com/hifi/raspbian-ua-netinst
+[submodule "fun/schemer"]
+	path = fun/schemer
+	url = https://github.com/thefryscorer/schemer
