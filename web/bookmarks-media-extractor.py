@@ -11,6 +11,7 @@ usertag = "music"
 #TODO: stream action: just play each element in mplayer using youtube-dl (do not download, play only)
 #TODO: mkplaylist action: same as stream, but just output the media urls to an .m3u file
 #TODO: markdown action: just send the relevant links to a nice markdown file, and convert it to HTML also
+#TODO: fetch raw webpages for some predefined tags, see https://superuser.com/questions/55040/save-a-single-web-page-with-background-images-with-wget
 bookmarksfile = open(bookmarksfilename)
 rawdata = bookmarksfile.read()
 data = BeautifulSoup(rawdata)
