@@ -1,0 +1,14 @@
+Source: youtube-upload
+Maintainer: Arnau Sanchez <tokland@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: youtube-upload
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Upload videos to Youtube
+ Youtube-upload is a command-line script that uploads videos to Youtube. If a
+ video does not comply with Youtube limitations (<15mins for a normal user) you
+ must split it before using ffmpeg or any other tool
