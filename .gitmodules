@@ -94,3 +94,6 @@
 [submodule "media/groove-dl"]
 	path = media/groove-dl
 	url = https://github.com/jacktheripper51/groove-dl
+[submodule "sysadmin/evilmaid_chkdsk"]
+	path = sysadmin/evilmaid_chkdsk
+	url = https://github.com/AlexWebr/evilmaid_chkdsk
