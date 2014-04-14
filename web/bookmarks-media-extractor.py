@@ -3,9 +3,10 @@ import os
 from bs4 import BeautifulSoup
 from subprocess import call
 
-bookmarksfilename = 'bookmarks_all_20140303_003115.html'
-usertag = "music"
-#TODO: pass bookmarks filename from argv
+usertag = raw_input('Enter the tag you want to download media for (music, video...): ')
+
+bookmarksfilename = raw_input('Enter the bookmarks.html filename you want to read: ')
+
 #TODO: detect if bookmarks filename has correct format
 #TODO: support plain text (not html) lists
 #TODO: stream action: just play each element in mplayer using youtube-dl (do not download, play only)
