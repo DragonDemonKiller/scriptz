@@ -88,3 +88,6 @@
 [submodule "dev/git/ghrabber"]
 	path = dev/git/ghrabber
 	url = https://github.com/cortesi/ghrabber
+[submodule "web/Dropbox-cli"]
+	path = web/Dropbox-cli
+	url = https://github.com/andreafabrizi/Dropbox-Uploader
