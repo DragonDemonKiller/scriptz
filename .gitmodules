@@ -85,3 +85,6 @@
 [submodule "utility/FileTeaSend"]
 	path = utility/FileTeaSend
 	url = https://github.com/brechin/FileTeaSend
+[submodule "dev/git/ghrabber"]
+	path = dev/git/ghrabber
+	url = https://github.com/cortesi/ghrabber
