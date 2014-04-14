@@ -91,3 +91,6 @@
 [submodule "web/Dropbox-cli"]
 	path = web/Dropbox-cli
 	url = https://github.com/andreafabrizi/Dropbox-Uploader
+[submodule "media/groove-dl"]
+	path = media/groove-dl
+	url = https://github.com/jacktheripper51/groove-dl
