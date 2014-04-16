@@ -30,4 +30,5 @@ for item in links:
         #TODO: add a command line switch to use mp3 output (best by default)
         #call(["youtube-dl", "--extract-audio", "--audio-quality", "0", item.get('href')])
         call(["youtube-dl", "--add-metadata", item.get('href')])
+        #TODO: output a file containing URLs for which youtube-dl failed
 #    print item.get('tags')
