@@ -5,10 +5,10 @@
 	path = utility/weather
 	url = https://github.com/l-r/weather.sh
 [submodule "sysadmin/speetouch-keygen"]
-	path = sysadmin/speetouch-keygen
+	path = sysadmin/netsec/speetouch-keygen
 	url = https://github.com/renatomartins/thomson-key
 [submodule "sysadmin/wifite"]
-	path = sysadmin/wifite
+	path = sysadmin/netsec/wifite
 	url = https://github.com/derv82/wifite
 [submodule "web/mixcloud-downloader"]
 	path = web/mixcloud-downloader
@@ -32,7 +32,7 @@
 	path = media/mp3-scripts
 	url = https://github.com/mafrosis/mp3-scripts
 [submodule "sysadmin/LANs.py"]
-	path = sysadmin/LANs.py
+	path = sysadmin/netsec/LANs.py
 	url = https://github.com/DanMcInerney/LANs.py
 [submodule "sysadmin/to"]
 	path = sysadmin/to
@@ -50,7 +50,7 @@
 	path = utility/todo.txt-cli
 	url = https://github.com/ginatrapani/todo.txt-cli
 [submodule "sysadmin/recon-ng"]
-	path = sysadmin/recon-ng
+	path = sysadmin/netsec/recon-ng
 	url = https://bitbucket.org/LaNMaSteR53/recon-ng
 [submodule "sysadmin/uberimg"]
 	path = sysadmin/uberimg
@@ -62,10 +62,10 @@
 	path = sysadmin/timestompy
 	url = https://github.com/b3rn3d/timestompy
 [submodule "sysadmin/inception"]
-	path = sysadmin/inception
+	path = sysadmin/netsec/inception
 	url = https://github.com/carmaa/inception
 [submodule "sysadmin/TCP-32764"]
-	path = sysadmin/TCP-32764
+	path = sysadmin/netsec/TCP-32764
 	url = https://github.com/elvanderb/TCP-32764
 [submodule "dev/git/gitcheck"]
 	path = dev/git/gitcheck
@@ -74,7 +74,7 @@
 	path = media/realtimeconfigquickscan
 	url = https://github.com/raboof/realtimeconfigquickscan
 [submodule "sysadmin/Linux_Exploit_Suggester"]
-	path = sysadmin/Linux_Exploit_Suggester
+	path = sysadmin/netsec/Linux_Exploit_Suggester
 	url = https://github.com/PenturaLabs/Linux_Exploit_Suggester
 [submodule "sysadmin/raspbian-ua-netinst"]
 	path = sysadmin/raspbian-ua-netinst
@@ -95,5 +95,5 @@
 	path = media/groove-dl
 	url = https://github.com/jacktheripper51/groove-dl
 [submodule "sysadmin/evilmaid_chkdsk"]
-	path = sysadmin/evilmaid_chkdsk
+	path = sysadmin/netsec/evilmaid_chkdsk
 	url = https://github.com/AlexWebr/evilmaid_chkdsk
