@@ -1,5 +1,8 @@
 #!/bin/bash
-#Unshortens a link.
+#Description: Unshortens a shortened link.
+#License: MIT (http://opensource.org/licenses/MIT)
+#Source: https://github.com/nodiscc/scriptz
+
 LONGURL=`curl -s http://www.unshorten.it/api1.0.php?shortURL=$1`
 #If there was an error, return the original url
 if [[  "$LONGURL" == *error* ]]

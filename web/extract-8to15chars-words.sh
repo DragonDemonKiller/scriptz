@@ -1,5 +1,7 @@
 #!/bin/bash
-#extract 8 to 15 characters words from a webpage
+#Description: extract 8 to 15 characters words from a webpage
+#License: http://opensource.org/licenses/MIT
+#Source: https://github.com/nodiscc/scriptz
 
 curl $1 | \
 html2text -width 600 | \

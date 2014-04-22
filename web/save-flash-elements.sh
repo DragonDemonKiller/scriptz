@@ -1,9 +1,7 @@
 #!/bin/bash
-
-# Script by Nilesh Govindrajan <me@nileshgr.com>
-
-# Saves cached flash video from any running browsers (that use libflashplayer.so)
-# File will be saved as the random string with extension .flv in the current directory.
+#Author: <me@nileshgr.com>
+#Description: Saves cached flash video from any running browsers (that use libflashplayer.so). File will be saved as a random string with extension .flv in the current directory.
+#License: CC-BY-SA (https://creativecommons.org/licenses/by-sa/3.0/)
 
 for p in $(pgrep -f libflashplayer.so -U `id -u`)
 do

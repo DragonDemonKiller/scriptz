@@ -1,7 +1,9 @@
 #!/bin/bash
-#create embed codes for videos from their URLs.
-#TODO: SUpport for Vimeo, Dailymotion...
-#TODO: support parsing files downloaded with clive/cclive (dlvid)
+#Description: create embed codes for Youtube or Vimeo videos from their URLs.
+#Source: https://github.com/nodiscc/scriptz
+#License: MIT (http://opensource.org/licenses/MIT)
+
+#TODO: Support Dailymotion., more sites...
 
 getembedcode() {
 #if URL contains vimeo

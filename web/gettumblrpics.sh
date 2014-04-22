@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
-#
-# Arg one is the name of the tumblr site
-#
-# Arg two is the number of pages to get.
-#
+# Source: http://sourceforge.net/projects/gettumblrpics/
+# License: Unknown
+# Description: Dowload picture from http://tumblr.com blogs
+# Usage: gettumblrpics.sh name_of_tumblr number_of_pages_to_get
+
 site=$1
 pages=$2
 
