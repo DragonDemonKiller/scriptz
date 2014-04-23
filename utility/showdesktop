@@ -1,5 +1,7 @@
 #!/bin/sh
-#toggle Openbox's "Show Desktop" mode on or off
+#Description: toggle Openbox's "Show Desktop" mode on or off
+#Source: https://github.com/nodiscc/scriptz
+#License: MIT (http://opensource.org/licenses/MIT)
 
 SHOWDESKTOPSTATUS=`wmctrl -m | tail -n 1 | awk '{print $7'}`
 if [ "$SHOWDESKTOPSTATUS" = "ON" ]

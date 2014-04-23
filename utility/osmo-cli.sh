@@ -1,5 +1,7 @@
 #!/bin/bash
-#osmo-cli.sh - command line for osmo
+#Description: osmo-cli.sh - command line for osmo
+#Source: https://github.com/nodiscc/scriptz
+#License: MIT (http://opensource.org/licenses/MIT)
 #USAGE:	osmo-cli.sh l 		List all tags is osmo's day notes
 #	osmo-cli.sh music	Look for the tag "#music" in day notes
 #	osmo-cli		Just colorize tags in day notes

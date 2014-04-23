@@ -1,4 +1,8 @@
 #!/bin/bash
+#Description: Simple looping prompt for https://github.com/ginatrapani/todo.txt-cli
+#License: http://opensource.org/licenses/MIT
+#Source: https://github.com/nodiscc/scriptz
+
 PROMPT="todo ↳ "
 
 showprompt() {

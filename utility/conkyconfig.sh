@@ -1,7 +1,8 @@
 #!/bin/sh
-#Graphical utility to allow setting conky's config file
+#Description: Graphical utility to allow setting conky's config file
 #Source: https://github.com/nodiscc
 #License: MIT
+#
 #TODO: allow selecting network interface
 #TODO: Create a desktop launcher for the configuration dialog
 #TODO: Create a desktop launcher for running the conf directly

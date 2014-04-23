@@ -1,5 +1,7 @@
 #!/bin/bash
-#Set linux terminal colors to something more pretty.
+#Description: Set linux terminal colors to something more pretty.
+#Source: https://github.com/nodiscc/scriptz
+#License: MIT (http://opensource.org/licenses/MIT)
 #Thanks to http://smithfarm-thebrain.blogspot.fr/2012/01/linux-console-text-mode-framebuffer.html
 #Thanks to http://phraktured.net/linux-console-colors.html
 #TODO: use solarized color scheme

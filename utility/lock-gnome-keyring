@@ -1,2 +1,6 @@
 #!/bin/bash
+#Description: Locks GNOME keyrings (currently only 'login' and 'mozilla' keyrings)
+#Source: https://github.com/nodiscc/scriptz
+#License: MIT (http://opensource.org/licenses/MIT)
+
 python -c "import gnomekeyring;gnomekeyring.lock_sync('login');gnomekeyring.lock_sync('mozilla')"
