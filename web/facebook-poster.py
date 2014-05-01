@@ -10,6 +10,7 @@ import os
 from bs4 import BeautifulSoup
 from subprocess import call
 import time
+from time import strftime
 import sys
 import re
 
@@ -49,7 +50,7 @@ print ""
 for item in links:
         if usertag in item.get('tags') and count < maxcount:
             outitem = item.contents[0]
-            print 'Posting %s ...' % outitem
+            print '[%s] Posting %s ...' % (strftime("%H:%M:%S"), outitem)
             call(["fbcmd", "FEEDLINK", item.get('href')])
             count = count + 1
             posteditems = posteditems + "\n" + item.get('href')
