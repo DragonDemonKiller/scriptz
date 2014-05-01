@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------
 # Version 0.2.1
 #
-#
+#Description: runs a web server on the fly in the current directory
 #Script permettant de lancer un serveur web à la volee dans le dossier courant.
 #(Si vous etes derriere un routeur, il faut le configurer pour que le port 8000
 #soit forwarde vers votre adresse IP locale)
