@@ -9,7 +9,7 @@
 
  * [encode-uri.sh](encode-uri.sh) - This command line percent-encodes strings, even binary data.
  * [extract-8to15chars-words.sh](extract-8to15chars-words.sh) - extract 8 to 15 characters words from a webpage
- * [facebook-poster.py](facebook-poster.py) - get bookmarks tag from a netscape-style bookmarks.html export (Delicious, Shaarli...) and post them to Facebook. Can post only links matching a specific tag, at a defined interval. Allows setting number of link to post.
+ * [social-poster.py](facebook-poster.py) - get bookmarks tag from a netscape-style bookmarks.html export (Delicious, Shaarli...) and post them to Facebook or Twitter. Can post only links matching a specific tag, at a defined interval. Allows setting number of link to post.
  * [fbcmd_update.php](fbcmd_update.php) - 
  * [gettumblrpics.sh](gettumblrpics.sh) - Dowload pictures from http://tumblr.com blogs
  * [get-video-embed-code.sh](get-video-embed-code.sh) - create embed codes for Youtube or Vimeo videos from their URLs.
