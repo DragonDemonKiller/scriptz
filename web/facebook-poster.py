@@ -41,7 +41,8 @@ rawdata = bookmarksfile.read()
 data = BeautifulSoup(rawdata)
 links = data.find_all('a')
 
-
+postedfilename = "posted.txt"
+posted = open(postedfilename, "a")
 posteditems = ""
 count = 0
 expectedtime = maxcount * sleeptime
@@ -50,7 +51,10 @@ print '[facebook auto poster] Posting links about %s... This will take %s second
 print ""
 
 for item in links:
-        if usertag in item.get('tags') and count < maxcount:
+        if usertag in item.get('tags') and "\n" + item.get('href') in open(postedfilename).read():
+			outitem = item.contents[0]
+			print "%s has already been posted." % outitem
+        elif usertag in item.get('tags') and count < maxcount:
             outitem = item.contents[0]
             print '[%s] Posting %s ...' % (strftime("%H:%M:%S"), outitem)
             if service == 'fb':
@@ -69,10 +73,11 @@ for item in links:
         else:
             pass
 
+#TODO: catch Ctrl+C and write posted items anyway
+
 print '''
 These %s links have been posted:''' % count
 print posteditems
-postedfilename = "posted.txt"
-posted = open(postedfilename, "a")
+
 posted.write(posteditems)
 #TODO: delete posted items frrom bookmarks file after run: sed -i 's/\&amp\;/\&/g' m.html; for i in `cat posted.txt`; do sed -i "s|.*\"$i\".*||g" m.html; done; sed -i '/^$/d' m.html
