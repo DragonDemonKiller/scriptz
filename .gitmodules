@@ -100,3 +100,6 @@
 [submodule "sysadmin/netsec/azazel"]
 	path = sysadmin/netsec/azazel
 	url = https://github.com/chokepoint/azazel.git
+[submodule "utility/lightsOn"]
+	path = utility/lightsOn
+	url = https://github.com/iye/lightsOn

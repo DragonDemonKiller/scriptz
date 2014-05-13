@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -rAa1 | wc -l
